@@ -24,30 +24,3 @@ export function UserContextFunc({ children }) {
 }
 
 
-// $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-// import { createContext, useContext, useState } from "react";
-
-
-// const CreatedUserContext = createContext();
-
-
-// export function usedUserContext() {
-//     return useContext(CreatedUserContext);
-// }
-
-
-// export function UserContextFunc({ children }) {
-//     const [darkMode, setDarkMode] = useState(false);
-
-  
-//     function setModefunc() {
-//         // setDarkMode((prevMode) => !prevMode);
-//         setDarkMode(!darkMode);
-//     }
-
-//     return (
-//         <CreatedUserContext.Provider value={{ darkMode, setModefunc }}>
-//             {children}
-//         </CreatedUserContext.Provider>
-//     );
-// }
