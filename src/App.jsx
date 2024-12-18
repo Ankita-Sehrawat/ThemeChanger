@@ -1,5 +1,6 @@
 import './App.css'
 import CardsFile from './components/CardsFile'
+import UserCard from './components/UserCard'
 import { usedUserContext } from './contextApi/UserContextFile'
 import About from './pages/About'
 import Home from './pages/Home'
@@ -8,11 +9,15 @@ function App() {
 
   return (
     <div>
-      {/* <h1 className='text-9xl'>{UseTheUserContext.fname}</h1> */}
+
       {/* <Home/>
       <About/> */}
 
-      <CardsFile/>
+      <div className='flex justify-between items-center px-10'>
+        <CardsFile/>
+        <UserCard/>
+      </div>
+
     </div>
   )
 }

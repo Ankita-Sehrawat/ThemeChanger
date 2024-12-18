@@ -8,6 +8,7 @@ import CardContextFile from './contextApi/CardContextFile.jsx'
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <CardContextFile>
+      {/* step 3 */}
       <UserContextFunc>
         <App />
       </UserContextFunc>
